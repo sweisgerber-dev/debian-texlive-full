@@ -31,4 +31,4 @@ WORKDIR ${WORKDIR}
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 
-CMD ["bash"]
+CMD ["/usr/bin/env bash"]
